@@ -1,0 +1,132 @@
+.playingField{
+    display: flex;
+    justify-content: center;
+    background: #fff;
+    margin-top:40px;
+
+
+}
+.gameSquares{
+    height: 30vh;
+    width: 30vh;
+    background: #fff;
+    border: 10px solid black;
+}
+
+.CA, .CB, .CC{
+    border-bottom: white;
+}
+
+.AA, .BA, .CA{
+    border-left: white;
+}
+.AC, .BC, .CC{
+    border-right: white;
+}
+
+.AA, .AB, .AC{
+    border-top: white;
+}
+
+
+.A {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.AImg {
+    display: none;
+    position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
+    top: 0;
+    left: 50%;
+
+    height: 90vh;
+    width: 2vh;
+
+    object-fit: cover; /* Змінено, якщо потрібно */
+    z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
+    margin-bottom: -10px; /* Виправлення відступу, якщо потрібно */
+}
+
+.ZAImg{
+    /*display: none;*/
+    position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
+    top: 5%;
+    left: 10%;
+
+    height: 20vh;
+    width: 20vh;
+
+    object-fit: cover; /* Змінено, якщо потрібно */
+    z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
+    margin-bottom: -10px; /* Виправлення відступу, якщо потрібно */
+
+}
+
+.CAImg{
+    display: none;
+    position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
+
+
+    height: 20vh;
+    width: 20vh;
+
+    object-fit: cover; /* Змінено, якщо потрібно */
+    z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
+    margin-bottom: -10px; /* Виправлення відступу, якщо потрібно */
+}
+
+.ImgAA{
+    top: 3vh;
+    left: 4vh;
+}
+
+.ImgBA{
+    /*display: none;*/
+    top: 40%;
+    left: 10%;
+}
+
+.ImgCA{
+    /*display: none;*/
+    top: 73%;
+    left: 10%;
+}
+
+.ImgAB{
+    /*display: none;*/
+    top: 73%;
+    left: 45%;
+}
+
+.ImgВB{
+    /*display: none;*/
+    top: 42%;
+    left: 45%;
+}
+
+.ImgСB{
+    /*display: none;*/
+    top: 10%;
+    left: 45%;
+}
+
+.ImgAС{
+    /*display: none;*/
+    top: 10vh;
+    left: 135vh;
+}
+
+.ImgBС{
+    /*display: none;*/
+    top: 42%;
+    left: 59%;
+}
+
+.ImgCС{
+    /*display: none;*/
+    top: 73%;
+    left: 59%;
+}
