@@ -65,7 +65,7 @@
 }
 
 .ZAImg{
-    /*display: none;*/
+    display: none;
     position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
     top: 5%;
     left: 10%;
