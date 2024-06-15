@@ -10,7 +10,7 @@
     height: 30vh;
     width: 30vh;
     background: #fff;
-    border: 10px solid black;
+    border: 1.3vh solid black;
 }
 
 .CA, .CB, .CC{
@@ -36,6 +36,20 @@
     align-items: center;
 }
 
+.B {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.C {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .AImg {
     display: none;
     position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
@@ -47,7 +61,7 @@
 
     object-fit: cover; /* Змінено, якщо потрібно */
     z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
-    margin-bottom: -10px; /* Виправлення відступу, якщо потрібно */
+    margin-bottom: -10vh; /* Виправлення відступу, якщо потрібно */
 }
 
 .ZAImg{
@@ -61,7 +75,7 @@
 
     object-fit: cover; /* Змінено, якщо потрібно */
     z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
-    margin-bottom: -10px; /* Виправлення відступу, якщо потрібно */
+    margin-bottom: -10vh; /* Виправлення відступу, якщо потрібно */
 
 }
 
@@ -79,54 +93,55 @@
 }
 
 .ImgAA{
-    top: 3vh;
-    left: 4vh;
+    /*display: none;*/
+    top: 5vh;
+    left: 5vh;
 }
 
 .ImgBA{
     /*display: none;*/
-    top: 40%;
-    left: 10%;
+    top: 35vh;
+    left: 5vh;
 }
 
 .ImgCA{
     /*display: none;*/
-    top: 73%;
-    left: 10%;
+    top: 65vh;
+    left: 5vh;
 }
 
 .ImgAB{
     /*display: none;*/
-    top: 73%;
-    left: 45%;
+    top: 5vh;
+    left: 5vh;
 }
 
 .ImgВB{
     /*display: none;*/
-    top: 42%;
-    left: 45%;
+    top: 35vh;
+    left: 5vh;
 }
 
 .ImgСB{
     /*display: none;*/
-    top: 10%;
-    left: 45%;
+    top: 65vh;
+    left: 5vh;
 }
 
 .ImgAС{
     /*display: none;*/
-    top: 10vh;
-    left: 135vh;
+    top: 5vh;
+    left: 5vh;
 }
 
 .ImgBС{
     /*display: none;*/
-    top: 42%;
-    left: 59%;
+    top: 35vh;
+    left: 5vh;
 }
 
 .ImgCС{
     /*display: none;*/
-    top: 73%;
-    left: 59%;
+    top: 65vh;
+    left: 5vh;
 }
