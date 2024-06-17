@@ -67,8 +67,8 @@
 .ZAImg{
     display: none;
     position: absolute; /* Змінено на absolute, щоб займати позицію над .gameSquares */
-    top: 5%;
-    left: 10%;
+    /*top: 5%;*/
+    /*left: 10%;*/
 
     height: 20vh;
     width: 20vh;
