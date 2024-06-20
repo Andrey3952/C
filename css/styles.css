@@ -60,7 +60,7 @@
     width: 2vh;
 
     object-fit: cover; /* Змінено, якщо потрібно */
-    z-index: 2; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
+    z-index: 9; /* Значення z-index для зображення, щоб бути вищим за .gameSquares */
     margin-bottom: -10vh; /* Виправлення відступу, якщо потрібно */
 }
 
