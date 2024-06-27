@@ -60,58 +60,46 @@ window.onload = () => {
                 }
             }
 
-            // if (zeros.indexOf(".AA") !== -1 && zeros.indexOf(".BA") !== -1 && zeros.indexOf(".CA") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".BA") !== -1 && crosses.indexOf(".CA") !== -1) {
+            if (zeros.indexOf(".AA") !== -1 && zeros.indexOf(".BA") !== -1 && zeros.indexOf(".CA") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".BA") !== -1 && crosses.indexOf(".CA") !== -1) {
 
-            //     $(".AImg").css("top", "0");
-            //     $(".AImg").css("left", "50%");
-            //     $(".AImg").show();
-            //     game = 1;
-            // }
+                $(".AImgAABACA").show();
+                game = 1;
+            }
 
-            // else if (zeros.indexOf(".AB") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".CB") !== -1 || crosses.indexOf(".AB") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".CB") !== -1) {
-            //     $(".AImg").css("top", "0");
-            //     $(".AImg").css("left", "150%");
-            //     $(".AImg").show();
-            //     game = 1;
-            // }
+            else if (zeros.indexOf(".AB") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".CB") !== -1 || crosses.indexOf(".AB") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".CB") !== -1) {
+                $(".AImgABBBCB").show();
+                game = 1;
+            }
 
-            // else if (zeros.indexOf(".AC") !== -1 && zeros.indexOf(".BC") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".AC") !== -1 && crosses.indexOf(".BC") !== -1 && crosses.indexOf(".CC") !== -1) {
-            //     $(".AImg").css("top", "0");
-            //     $(".AImg").css("left", "250%");
-            //     $(".AImg").show();
-            //     game = 1;
-            // }
+            else if (zeros.indexOf(".AC") !== -1 && zeros.indexOf(".BC") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".AC") !== -1 && crosses.indexOf(".BC") !== -1 && crosses.indexOf(".CC") !== -1) {
+                $(".AImgACBCCC").show();
+                game = 1;
+            }
 
-            // else if (zeros.indexOf(".CA") !== -1 && zeros.indexOf(".CB") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".CA") !== -1 && crosses.indexOf(".CB") !== -1 && crosses.indexOf(".CC") !== -1) {
-            //     $(".AImgD").css("top", "34.3%");
-            //     $(".AImgD").css("left", "150%");
-            //     $(".AImgD").show();
-            //     game = 1;
-            // }
+            else if (zeros.indexOf(".CA") !== -1 && zeros.indexOf(".CB") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".CA") !== -1 && crosses.indexOf(".CB") !== -1 && crosses.indexOf(".CC") !== -1) {
+                $(".AImgCACBCC").show();
+                game = 1;
+            }
 
-            // else if (zeros.indexOf(".AA") !== -1 && zeros.indexOf(".AB") !== -1 && zeros.indexOf(".AC") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".AB") !== -1 && crosses.indexOf(".AC") !== -1) {
-            //     $(".AImgD").css("top", "-34.3%");
-            //     $(".AImgD").css("left", "150%");
-            //     $(".AImgD").show();
-            //     game = 1;
-            // }
+            else if (zeros.indexOf(".AA") !== -1 && zeros.indexOf(".AB") !== -1 && zeros.indexOf(".AC") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".AB") !== -1 && crosses.indexOf(".AC") !== -1) {
+                $(".AImgAAABAC").show();
+                game = 1;
+            }
 
-            // else if (zeros.indexOf(".BA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".BC") !== -1 || crosses.indexOf(".BA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".BC") !== -1) {
-            //     $(".AImgD").css("top", "0.3%");
-            //     $(".AImgD").css("left", "150%");
-            //     $(".AImgD").show();
-            //     game = 1;
-            // }
+            else if (zeros.indexOf(".BA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".BC") !== -1 || crosses.indexOf(".BA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".BC") !== -1) {
+                $(".AImgBABBBC").show();
+                game = 1;
+            }
 
-            // else if ( zeros.indexOf(".AA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".CC") !== -1) {
-            //     $(".AImgS").show();
-            //     game = 1;
-            // }
+            else if ( zeros.indexOf(".AA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".CC") !== -1 || crosses.indexOf(".AA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".CC") !== -1) {
+                $(".AImgAABBCC").show();
+                game = 1;
+            }
 
-            // else if ( zeros.indexOf(".CA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".AC") !== -1 || crosses.indexOf(".CA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".AC") !== -1) {
-            //     $(".AImgMS").show();
-            //     game = 1;
-            // }
+            else if ( zeros.indexOf(".CA") !== -1 && zeros.indexOf(".BB") !== -1 && zeros.indexOf(".AC") !== -1 || crosses.indexOf(".CA") !== -1 && crosses.indexOf(".BB") !== -1 && crosses.indexOf(".AC") !== -1) {
+                $(".AImgCABBAC").show();
+                game = 1;
+            }
 
 
 
